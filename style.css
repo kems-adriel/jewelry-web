@@ -60,10 +60,7 @@ nav a {
     display: flex;
     gap: 25px;
 }
-.cart-icon{
-    font-size: 1.2rem;
 
-}
 .searchimg{
     width: 23px;
     height: 20px;
