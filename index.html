@@ -10,14 +10,22 @@
     <header>
         <div class="header">
         <h1 class="logo">Joyas</h1>
-    </div>
+        </div>
         <nav>
             <a href="#home">Home</a>
             <a href="#shop">Shop</a>
             <a href="#products">Products</a>
             <a href="#contact">Contact</a>
-            <a href="#cart" class="cart-icon"><img class="cartimg" src="/images/icons8-cart-24.png" alt=""></a>
+            <div class="cart-container">
+                <div class="count">0</div>
+                <a href="cart.html" class="cart-icon"><img class="cartimg" src="/images/icons8-cart-24.png" alt=""></a>
+                <div class="cart-dis">
+                </div>
+            </div>
+           
+
         </nav>
+       
     </header>
 
     <section class="hero" id="home">
@@ -37,8 +45,8 @@
             <div class="text-content">
             <h4>The Indiana Necklace</h4>
             <p class="product-price">$5,000</p>
-            <button class="add-to-cart" data-name="The Indiana Necklace" data-price="$5000" 
-            data-image="">Add to Cart</button>
+            <button class="add-to-cart" data-name="The Indiana Necklace" data-price="5,000" 
+            data-image="images/productimg1.jpg">Add to Cart</button>
         </div>
         </div>
             <div class="product-card">
@@ -46,7 +54,8 @@
             <div class="text-content">
                 <h4>The Moshito two in one Neckpiece</h4>
                 <p class="product-price">$8,500</p>
-                <button class="add-to-cart">Add to Cart</button>
+                <button class="add-to-cart" data-name="The Moshito two in one Neckpiece" data-price="8,500" 
+                data-image="images/productimg2.jpg">Add to Cart</button>
             </div>
             </div>
         
@@ -55,7 +64,8 @@
                 <div class="text-content">
                 <h4>The Eliana Diamond set</h4>
                 <p class="product-price">$6,250</p>
-                <button class="add-to-cart">Add to Cart</button>
+                <button class="add-to-cart" data-name="The Eliana Diamond set" data-price="6,250" 
+                data-image="images/productimg3.jpg">Add to Cart</button>
             </div>
         </div>
             <div class="product-card">
@@ -63,7 +73,8 @@
                 <h4> The Petrah Diamond set</h4>
                 <div class="text-content">
                 <p class="product-price">$7,100</p>
-                <button class="add-to-cart">Add to Cart</button>
+                <button class="add-to-cart" data-name="The Petrah Diamond" data-price="7,100" 
+                data-image="images/productimg4.jpg">Add to Cart</button>
             </div>
             </div>
             <div class="product-card">
@@ -71,7 +82,8 @@
                 <div class="text-content">
                 <h4>The Puchito Necklace</h4>
                 <p class="product-price">$5,680</p>
-                <button class="add-to-cart">Add to Cart</button>
+                <button class="add-to-cart" data-name="The Puchito Necklace" data-price="5,680" 
+                data-image="images/productimg5.jpg">Add to Cart</button>
             </div>
             </div>
             <div class="product-card">
@@ -79,7 +91,8 @@
                 <div class="text-content">
                 <h4>The Sling two in one Neckpiece</h4>
                 <p class="product-price">$11,250</p>
-                <button class="add-to-cart">Add to Cart</button>
+                <button class="add-to-cart" data-name="The sling two in one Neckpiece" data-price="11,250" 
+                data-image="images/productimg6.jpg">Add to Cart</button>
             </div>
         </div>
         
@@ -88,7 +101,8 @@
                 <div class="text-content">
                 <h4>The blue stone earings</h4>
                 <p class="product-price">$2,000</p>
-                <button class="add-to-cart">Add to Cart</button>
+                <button class="add-to-cart" data-name="The blue stone earings" data-price="2,000" 
+                data-image="images/productimg7.jpg">Add to Cart</button>
             </div>
             </div>
 
@@ -97,7 +111,8 @@
                 <div class="text-content">
                 <h4>The Duchess Neckpiece</h4>
                 <p class="product-price">$9,100</p>
-                <button class="add-to-cart">Add to Cart</button>
+                <button class="add-to-cart" data-name="The Duchess Neckpiece" data-price="9,100" 
+                data-image="images/productimg8.jpg">Add to Cart</button>
             </div>
             </div>
             <div class="product-card">
@@ -105,7 +120,8 @@
                 <div class="text-content">
                 <h4>The Safari 3 in 1 leaf diamonds set</h4>
                 <p class="product-price">$8,500</p>
-                <button class="add-to-cart">Add to Cart</button>
+                <button class="add-to-cart" data-name="The Safari 3 in 1 leaf diamonds set" data-price="8,500" 
+                data-image="images/productimg9.jpg">Add to Cart</button>
             </div>
             </div>
         
@@ -113,9 +129,12 @@
             <div class="product-card">
                 <img src="images/productimg10.jpg" alt="product-name" class="product-image">
                 <div class="text-content">
-                <h4>The studded diamond set</h4>
+                <h4 class="product-name">The studded diamond set</h4>
                 <p class="product-price">$15,580</p>
-                <button class="add-to-cart">Add to Cart</button>
+
+
+                <button class="add-to-cart" data-name="The studded diamond set" data-price="15,580" 
+                data-image="images/productimg10.jpg">Add to Cart</button>
             </div>
             </div>
         </div>
@@ -132,7 +151,12 @@
             <div class="text-content">
             <h4 class="product-name">The Dazzle drop necklace</h4>
             <p class="product-price">$7,110</p>
-            <button class="add-to-cart">Add to Cart</button>
+
+            
+            <button class="add-to-cart" data-name="The Dazzle drop necklace" data-price="7,110" 
+            data-image="images/Frame 17.png">Add to Cart</button>
+            
+
         </div>
         </div>
             <div class="product-card">
@@ -141,7 +165,8 @@
                 <div class="text-content">
                 <h4 class="product-name">The Shimmer spark</h4>
                 <p class="product-price">$6,350</p>
-                <button class="add-to-cart">Add to Cart</button>
+                <button class="add-to-cart" data-name="The Shimmer spark" data-price="6,350" 
+                data-image="images/Frame 18.png">Add to Cart</button>
             </div>
             </div>
             
@@ -151,7 +176,8 @@
                     <div class="text-content">
                     <h4 class="product-name">The leaf treasure earings</h4>
                     <p class="product-price">$1,150</p>
-                    <button class="add-to-cart">Add to Cart</button>
+                    <button class="add-to-cart" data-name="The leaf treasure earings" data-price="1,150" 
+                    data-image="images/Frame 19.png">Add to Cart</button>
                 </div>
                 </div>
                         <div class="product-card">
@@ -160,7 +186,8 @@
                             <div class="text-content">
                             <h4 class="product-name">The Gleam Gemstone</h4>
                             <p class="product-price">$5,450</p>
-                            <button class="add-to-cart">Add to Cart</button>
+                            <button class="add-to-cart" data-name="The Gleam Gemstone" data-price="5,450" 
+                            data-image="images/Frame 25.png">Add to Cart</button>
                         </div>
                         </div>
                         
@@ -170,7 +197,8 @@
                                 <div class="text-content">
                                 <h4 class="product-name">The Ruby Radiance</h4>
                                 <p class="product-price">$4,150</p>
-                                <button class="add-to-cart">Add to Cart</button>
+                                <button class="add-to-cart" data-name="The Ruby Radiance" data-price="4,150" 
+                                data-image="images/Frame 24.png">Add to Cart</button>
                             </div>
                             </div>
             
@@ -180,7 +208,8 @@
                                     <div class="text-content">
                                     <h4 class="product-name">The bling belle earings</h4>
                                     <p class="product-price">$800</p>
-                                    <button class="add-to-cart">Add to Cart</button>
+                                    <button class="add-to-cart" data-name="The bling belle earings" data-price="800" 
+                                    data-image="images/Frame 23.png">Add to Cart</button>
                                 </div>
                                 </div>             
         </div>
@@ -274,5 +303,4 @@
     </div>
 </footer>
 </html>
-
 <script src="script.js"></script>
