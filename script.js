@@ -4,7 +4,20 @@ function addToCart(item) {
     localStorage.setItem("cart", JSON.stringify(cart));
     displayCartItems(); 
     updateCartCount();
+    showAddToCartNotification();
 }
+function showAddToCartNotification() {
+    const notification = document.createElement("div");
+    notification.className= "added-to-cart";
+    notification.textContent="Item added to cart!";
+
+    document.body.appendChild(notification);
+    setTimeout(() => {
+        notification.remove();
+    }, 2000);
+
+    }
+
 
 
 function setupAddToCartButtons() {
