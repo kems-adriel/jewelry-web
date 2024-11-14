@@ -637,3 +637,13 @@ transition: background-color 0.2s ease;
     color: #0073e6;
     text-decoration: none;
 }
+.submit-btn{
+padding: 1rem;
+margin-top: 0.5rem;
+width: 100px;
+background-color: blue;
+color: white;
+border: none;
+border-radius: 20px;
+cursor: pointer;
+}
